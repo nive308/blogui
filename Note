@@ -1,0 +1,15 @@
+create redux
+
+action,reducer,store
+
+in action.....count.js
+const increment=()=>{
+    return {type:"INCREMENT"}
+}
+const decrement=()=>{
+    return{ type:"DECREMENT"}
+}
+
+In reducer....count.js
+const initialState=0
+const countReducer=(state)
